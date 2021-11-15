@@ -1,6 +1,5 @@
 # powerlink206.github.io
 
-<!doctype html>
 <html>
   <head>
     Hello FUcking World
