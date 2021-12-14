@@ -8,23 +8,24 @@
         <img src="g115_9.jpg" alt="error"><br>
         <h1>그럼 정답을 구해보세요</h1>
         <script language="JavaScript">
-            function g115sol()
-                {
-
-                    if(document.frm1.g115entre.value == "32"){
-                        alert("정답입니다")
-                        location.href="g115_4.html"
-                    }   else {
-                        alert("다시 생각해보세요")
-                    }
-
+            function g115sol(){
+    
+                if(document.frm1.g115entre.value == "32"){
+                    alert("정답입니다")
+                    location.href="g115_4.html"
+                }   else{
+                    alert("다시 생각해보세요")
                 }
+    
+            }
         </script>
         <form name="frm1">
             <p>30A : <input type="text" size=12 names="g115entre">
             <input type="button" value="입력" onclick="g115sol()">
         </form>
         
+
+    
 
     
     
